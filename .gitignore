@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+wheels/
+release/
+__pycache__/
+voice-bridge/config.json
+voice-bridge/config.json.*
+voice-bridge/state/
+voice-bridge/.tmp/
+native/version.dll
+native/build.json
+*.token

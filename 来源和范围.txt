@@ -1,0 +1,15 @@
+公开版为独立的 WeChatAgent 后台语音条适配项目，不是 WeChatAgent 的 fork、开发分支或官方发行版。
+上游：https://github.com/sourcepro5/WeChatAgent
+
+包含适配源码、部署说明、构建安装检查脚本和依赖声明。Release 附件另含 Python 3.9 x64 wheels 与 DSH 桥接插件参考副本的 npm 依赖。
+不分发微信、DSH、完整 WeChatAgent 安装器、第三方 Hook 完整源码或集成 DLL，以及小鲸鱼音色、音色模型、参考录音、声音服务、凭据和聊天数据。
+
+底层 Hook 来源：https://github.com/aixed/WeChat-Hook
+匹配提交：e905d07ade50d2c6472e4eb3bd4f3fe19cf662c6
+原验证构建清单：native/reference-build.json
+仅支持 Windows 微信 x64 4.1.10.27。
+
+上游版权与许可保留于 LICENSE 和 licenses 目录；第三方依赖保留各自许可。本仓库许可不额外授予第三方软件和素材的权利。
+
+用户指定的声音来源仅作链接说明，不分发其资源：
+https://github.com/Esmerubphire/astrbot_plugin_feiyu_voice

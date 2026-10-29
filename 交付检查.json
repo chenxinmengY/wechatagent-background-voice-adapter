@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "scope": "public source adaptation",
+  "upstream": "https://github.com/sourcepro5/WeChatAgent",
+  "fork": false,
+  "referenceEnvironment": "WeChatAgent 0.4.1; WeChat x64 4.1.10.27",
+  "validation": [
+    "PowerShell syntax",
+    "Node syntax",
+    "Python 3.9 offline dependencies",
+    "generated tone SILK encode/decode",
+    "secret and voice asset scan",
+    "public build entry compiled in isolated workspace with voice_native.cpp"
+  ],
+  "publicBuildAndNewMachineInstall": "isolated local build passed; new machine login and phone playback remain recipient acceptance",
+  "thirdPartyNativeBinaryIncluded": false,
+  "personalVoiceAssetsIncluded": false,
+  "accountDataIncluded": false
+}
